@@ -1,0 +1,219 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    font-size: 20px; 
+    font-family:'Karla', sans-serif;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #666;
+}
+
+
+.header 
+{
+  overflow: hidden;
+  background-color: transparent;
+  padding: 20px 10px;
+position: fixed;
+top: 0;
+color:white;
+
+}
+
+
+.header a 
+{
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+background: transparent;
+color: white;
+}
+
+
+.header logo 
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+/*  
+.header a:hover 
+{
+  background-color: white;
+  color: black;
+}
+*/
+
+.header active 
+{
+background-color: transparent;
+  color: white;
+}
+
+.header-right 
+{
+  float: right;
+}
+
+@media screen and (max-width: 500px) 
+{
+  .header logo 
+  {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.img1,.img2,.img3, .img4, .img5, .img6
+{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1
+{
+    background-image: url('../Images/img1.jpg');
+    min-height:100%;
+}
+
+.img2
+{
+    background-image: url('../Images/img2.jpg');
+    min-height:500px;
+}
+
+.img3
+{
+    background-image: url('../Images/img3.jpg');
+    min-height:500px;
+}
+
+.img4
+{
+    background-image: url('../Images/img4.jpg');
+    min-height:500px;
+}
+
+.img5
+{
+    background-image: url('../Images/img5.jpg');
+    min-height:500px;
+}
+
+.img6
+{
+    background-image: url('../Images/img6.jpg');
+    min-height:500px;
+}
+
+.section
+{
+    text-align: center;
+    padding: 50px 70px;
+}
+
+.sec1
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.sec2
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.sec3
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.sec4
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.sec5
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.sec6
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.txt
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    letter-spacing: 8px;
+    text-transform:uppercase;
+}
+
+.txt .border
+{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.txt .border.trans
+{
+    background-color: transparent;
+}
+
+
+a:link 
+{
+  color: #ddd;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited 
+{
+  color: #ddd;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover 
+{
+  color: #ddd;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active 
+{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
